@@ -1,8 +1,9 @@
 import Carousel from "react-bootstrap/Carousel";
 import bg from "../assets/img/card-img-7.png";
+import bg1 from "../assets/img/bg.png";
 function Ownstatus() {
   return (
-    <div style={{ backgroundImage: `url("src/assets/img/bg.png")` }}>
+    <div style={{ backgroundImage: `url(${bg1})` }}>
       <div className="container p-5">
         <button type="button" className="btn btn-primary me-3">
           Own Status

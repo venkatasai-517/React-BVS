@@ -7,6 +7,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 // import bg from "../assets/img/bg.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import bg from "../assets/img/card-img-7.png";
+import bg1 from "../assets/img/bg.png";
 
 function Createpage() {
   const pillo = {
@@ -14,7 +15,7 @@ function Createpage() {
   };
   return (
     <>
-      <div style={{ backgroundImage: `url("src/assets/img/bg.png")` }}>
+      <div style={{ backgroundImage: `url(${bg1})` }}>
         <div className="text-center">
           <h1>Hey ! Create Your Page Here</h1>
         </div>

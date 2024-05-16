@@ -43,7 +43,7 @@ const Body = () => {
           <p className="ps-5 ms-3 mt-3">You might want to try...</p>
           <div className="row ms-md-5 me-md-5 mt-md-3 ms-3 me-3 ">
             <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
-              <div className="card">
+              <div className="card border-0 ">
                 <Link to="/ownstatus">
                   <img src={card1} className="card-img-top" alt="..."></img>
 
@@ -54,7 +54,7 @@ const Body = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
-              <div className="card">
+              <div className="card border-0 ">
                 <Link to="/createpage">
                   <img src={card2} className="card-img-top" alt="..."></img>
                   <div className="text-center card-img-overlay text-white mt-5 fst-italic">
@@ -64,7 +64,7 @@ const Body = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
-              <div className="card">
+              <div className="card border-0 ">
                 <Link to="/userpage">
                   <img src={card3} className="card-img-top" alt="..."></img>
                   <div className="text-center card-img-overlay text-white mt-5 fst-italic">
@@ -74,7 +74,7 @@ const Body = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-6 mb-3">
-              <div className="card">
+              <div className="card border-0 ">
                 <Link to="/uploadads">
                   <img src={card4} className="card-img-top" alt="..."></img>
                   <div className="text-center card-img-overlay text-white mt-5 fst-italic">

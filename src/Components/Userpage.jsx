@@ -4,14 +4,15 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 // import InputGroup from "react-bootstrap/InputGroup";
 // import Card from "react-bootstrap/Card";
-import yoga from "../assets/img/yoga.jpg";
 import Carousel from "react-bootstrap/Carousel";
 // import Container from "react-bootstrap/Container";
+import bg1 from "../assets/img/bg.png";
+import bg from "../assets/img/card-img-7.png";
 
 function User() {
   return (
     <>
-      <div style={{ backgroundImage: `url("src/assets/img/bg.png")` }}>
+      <div style={{ backgroundImage: `url(${bg1})` }}>
         <div className="text-center">
           <h5>
             <b>Its Users Page</b>
@@ -20,7 +21,7 @@ function User() {
         <div className="container p-3">
           <Carousel data-bs-theme="dark">
             <Carousel.Item>
-              <img className="d-block w-100" src={yoga} alt="First slide" />
+              <img className="d-block w-100" src={bg} alt="First slide" />
               <Carousel.Caption>
                 <h5>First slide label</h5>
                 <p>
@@ -29,14 +30,14 @@ function User() {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={yoga} alt="Second slide" />
+              <img className="d-block w-100" src={bg} alt="Second slide" />
               <Carousel.Caption>
                 <h5>Second slide label</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={yoga} alt="Third slide" />
+              <img className="d-block w-100" src={bg} alt="Third slide" />
               <Carousel.Caption>
                 <h5>Third slide label</h5>
                 <p>
@@ -46,7 +47,7 @@ function User() {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={yoga} alt="Third slide" />
+              <img className="d-block w-100" src={bg} alt="Third slide" />
               <Carousel.Caption>
                 <h5>Third slide label</h5>
                 <p>
