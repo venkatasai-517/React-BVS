@@ -1,7 +1,8 @@
+import bg from "../assets/img/bg.png";
 const Contact = () => {
   return (
     <>
-      <div style={{ backgroundImage: `url("src/assets/img/bg.png")` }}>
+      <div style={{ backgroundImage: `url(${bg})` }}>
         <div className="container pt-4">
           <h5 className="text-center">
             <b>Contact</b>
