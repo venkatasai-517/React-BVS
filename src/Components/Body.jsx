@@ -4,13 +4,14 @@ import card2 from "../assets/img/card-img-4.png";
 import card3 from "../assets/img/card-img-5.png";
 import card4 from "../assets/img/card-img-6.png";
 import bg from "../assets/img/card-img-7.png";
+import home from "../assets/img/home.png";
 
 import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
     <>
-      <div style={{ backgroundImage: `url("src/assets/img/home.png")` }}>
+      <div style={{ backgroundImage: `url(${home})` }}>
         <div className="container mt-4">
           <div className="card border-0 ms-5 me-5">
             <img
