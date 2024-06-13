@@ -155,9 +155,9 @@ const Footer = () => {
           </ul>
         </div>
       </footer>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
-        <div className="container-fluid">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100">
+      <nav className="navbar navbar-dark bg-dark fixed-bottom">
+        <div className="container-fluid justify-content-center">
+          <ul className="navbar-nav d-flex flex-row mb-2 mb-lg-0 justify-content-center w-100">
             <li className="nav-item mx-3">
               <a className="nav-link disabled">
                 <i className="fa-solid fa-arrow-left"></i>
