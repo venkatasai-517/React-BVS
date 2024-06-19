@@ -7,84 +7,37 @@ const Footer = () => {
       <footer className="bg-dark p-5">
         <div className="row">
           <div className="col-12 col-md-4 mb-3">
-            <h5>BUSINESS VICTORY SOLUTIONS</h5>
+            <h5>Hostel Managment</h5>
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Website Development
+                  Free WiFi
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Mobile App Development
+                  Shared Kitchen or Mess
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Advertising, Ads Designing
+                  Bathrooms
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Social Media Promotion
+                  Housekeeping
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Brand & Logo Designing
+                  Support Services
                 </a>
               </li>
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link p-0 text-white">
-                  Celebrity Promotion
+                  Common Areas
                 </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle p-0 text-white"
-                  href="#"
-                  role="button"
-                  id="dropdownMenuLink"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Digital Media Marketing
-                </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="dropdownMenuLink"
-                >
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Google Ads
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Facebook Ads
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Instagram Ads
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      YouTube Ads
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Website Ads
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      addtheadd.com ads
-                    </a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </div>
@@ -94,11 +47,11 @@ const Footer = () => {
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
                 <a href="#" className="nav-link text-white p-0">
-                  business victory solutions
+                  Hostel_name
                 </a>
               </li>
               <li className="nav-item mb-2">
-                Manager contact:
+                Owner contact:
                 <a href="tel:+918523899330" className="nav-link text-white p-0">
                   8523899330
                 </a>
@@ -155,7 +108,7 @@ const Footer = () => {
           </ul>
         </div>
       </footer>
-      <nav className="navbar navbar-dark bg-body fixed-bottom">
+      {/* <nav className="navbar navbar-dark bg-body fixed-bottom">
         <div className="container-fluid justify-content-center">
           <ul className="navbar-nav d-flex flex-row mb-2 mb-lg-0 justify-content-center w-100 ">
             <li className="nav-item mx-3 badge bg-dark ">
@@ -190,7 +143,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> */}
     </div>
   );
 };
