@@ -362,7 +362,7 @@ const Body = () => {
                 >
                   <li className="flex gap-x-3">
                     <img
-                      src="public/images/single-bed-icon.png"
+                      src="./images/single-bed-icon.png"
                       width={100}
                       height={100}
                     ></img>
