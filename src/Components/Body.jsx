@@ -233,7 +233,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/washing-machine-icon.png"
+                      src="/assets/img/washing-machine-icon.png"
                       width={50}
                       height={50}
                     ></img>
@@ -241,7 +241,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/water-tap-icon.png"
+                      src="/assets/img/water-tap-icon.png"
                       width={50}
                       height={50}
                     ></img>
