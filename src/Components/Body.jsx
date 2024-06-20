@@ -8,6 +8,10 @@ import card4 from "../assets/img/4.jpg";
 import home from "../assets/img/home.png";
 import "./Component.css";
 import wifi from "../assets/img/wifi-signal-icon.png";
+import washingMachine from "../assets/img/washing-machine-icon.png";
+import food from "../assets/img/breakfast-icon.png";
+import water from "../assets/img/water-tap-icon.png";
+import room from "../assets/img/capacity (1)-icon.png";
 const Body = () => {
   const [getData, setGetData] = useState(null);
 
@@ -141,7 +145,7 @@ const Body = () => {
           <div className="row">
             <div className="col-12 d-flex align-items-center ps-5 ms-3 mt-3">
               <img
-                src="src/assets/img/capacity (1)-icon.png"
+                src={room}
                 width={50}
                 height={50}
                 alt="Capacity Icon" // Adding alt attribute for better accessibility
@@ -233,7 +237,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="/img/washing-machine-icon.png"
+                      src={washingMachine}
                       width={50}
                       height={50}
                       alt="Washing Machine"
@@ -241,19 +245,11 @@ const Body = () => {
                     <b>Free washing Machine</b>
                   </li>
                   <li className="flex gap-x-3">
-                    <img
-                      src="/assets/img/water-tap-icon.png"
-                      width={50}
-                      height={50}
-                    ></img>
+                    <img src={water} width={50} height={50}></img>
                     <b>24/7 Water</b>
                   </li>
                   <li className="flex gap-x-3">
-                    <img
-                      src="src/assets/img/breakfast-icon.png"
-                      width={50}
-                      height={50}
-                    ></img>
+                    <img src={food} width={50} height={50}></img>
                     <b> 3 Time Food</b>
                   </li>
                 </ul>
@@ -349,7 +345,7 @@ const Body = () => {
                   Sharing Rents
                 </h3>
                 <p className="mt-6 text-base leading-7 text-gray-600">
-                  While hostel sharing rentals offer many benefits, it's
+                  While hostel sharing rentals offer many benefits, its
                   important to consider potential downsides like lack of
                   privacy, noise, and the need for good interpersonal skills to
                   manage shared living dynamics effectively.
@@ -366,7 +362,7 @@ const Body = () => {
                 >
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/single-bed-icon.png"
+                      src="public/images/single-bed-icon.png"
                       width={100}
                       height={100}
                     ></img>
