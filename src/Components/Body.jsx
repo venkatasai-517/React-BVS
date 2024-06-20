@@ -266,10 +266,7 @@ const Body = () => {
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-19">
                   <div className="mx-auto max-w-xs ">
-                    <img
-                      src="src/assets/img/hostel-kitchen.jpg"
-                      width={500}
-                    ></img>
+                    <img src="./images//hostel-kitchen.jpg" width={500}></img>
                   </div>
                 </div>
               </div>
@@ -371,7 +368,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/double-bed-icon.jpg"
+                      src="./images/double-bed-icon.jpg"
                       width={100}
                       height={100}
                     ></img>
@@ -380,7 +377,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/thrible-ded-icon.jpg"
+                      src="./images/thrible-ded-icon.jpg"
                       width={100}
                       height={100}
                     ></img>
@@ -389,7 +386,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/four-bed-icon.jpg"
+                      src="./images/four-bed-icon.jpg"
                       width={100}
                       height={100}
                     ></img>
