@@ -233,10 +233,11 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="/assets/img/washing-machine-icon.png"
+                      src="/img/washing-machine-icon.png"
                       width={50}
                       height={50}
-                    ></img>
+                      alt="Washing Machine"
+                    />
                     <b>Free washing Machine</b>
                   </li>
                   <li className="flex gap-x-3">
