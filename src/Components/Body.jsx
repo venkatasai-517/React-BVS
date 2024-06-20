@@ -7,7 +7,7 @@ import card3 from "../assets/img/3.jpg";
 import card4 from "../assets/img/4.jpg";
 import home from "../assets/img/home.png";
 import "./Component.css";
-
+import wifi from "../assets/img/wifi-signal-icon.png";
 const Body = () => {
   const [getData, setGetData] = useState(null);
 
@@ -215,7 +215,7 @@ const Body = () => {
                   different.High-speed internet access for academic,
                   professional, and personal use. budget requirements.On-site
                   washing machines and dryers or laundry services to handle
-                  residents' laundry needs.
+                  residents laundry needs.
                 </p>
                 <div className="mt-10 flex items-center gap-x-4">
                   <h4 className="flex-none text-sm font-semibold leading-6 text-indigo-600">
@@ -228,11 +228,7 @@ const Body = () => {
                   className="mt-8 grid grid-cols-1 gap-4 leading-6 text-slate-400 hover:text-sky-400 sm:grid-cols-2 sm:gap-6"
                 >
                   <li className="flex gap-x-3">
-                    <img
-                      src="src/assets/img/wifi-signal-icon.png"
-                      width={50}
-                      height={50}
-                    ></img>
+                    <img src={wifi} width={50} height={50}></img>
                     <b>Free wifi</b>
                   </li>
                   <li className="flex gap-x-3">
