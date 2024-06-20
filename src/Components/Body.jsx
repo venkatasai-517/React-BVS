@@ -232,12 +232,16 @@ const Body = () => {
                   className="mt-8 grid grid-cols-1 gap-4 leading-6 text-slate-400 hover:text-sky-400 sm:grid-cols-2 sm:gap-6"
                 >
                   <li className="flex gap-x-3">
-                    <img src={wifi} width={50} height={50}></img>
+                    <img
+                      src="./images/wifi-signal-icon.png"
+                      width={50}
+                      height={50}
+                    ></img>
                     <b>Free wifi</b>
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src={washingMachine}
+                      src="./images/washing-machine-icon.png"
                       width={50}
                       height={50}
                       alt="Washing Machine"
@@ -245,11 +249,19 @@ const Body = () => {
                     <b>Free washing Machine</b>
                   </li>
                   <li className="flex gap-x-3">
-                    <img src={water} width={50} height={50}></img>
+                    <img
+                      src="./images/water-tap-icon.png"
+                      width={50}
+                      height={50}
+                    ></img>
                     <b>24/7 Water</b>
                   </li>
                   <li className="flex gap-x-3">
-                    <img src={food} width={50} height={50}></img>
+                    <img
+                      src="./images/breakfast-icon.png"
+                      width={50}
+                      height={50}
+                    ></img>
                     <b> 3 Time Food</b>
                   </li>
                 </ul>
@@ -290,7 +302,7 @@ const Body = () => {
                 >
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/breakfast-icon.png"
+                      src="./images/breakfast-icon.png"
                       width={50}
                       height={50}
                     ></img>
@@ -298,7 +310,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/lunch-box-icon.png"
+                      src="./images/lunch-box-icon.png"
                       width={50}
                       height={50}
                     ></img>
@@ -306,7 +318,7 @@ const Body = () => {
                   </li>
                   <li className="flex gap-x-3">
                     <img
-                      src="src/assets/img/christmas-dinner-icon.png"
+                      src="./images/christmas-dinner-icon.png"
                       width={50}
                       height={50}
                     ></img>
