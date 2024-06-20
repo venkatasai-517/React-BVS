@@ -79,16 +79,16 @@ const Header = () => {
               </ul>
             </li>
           </ul>
-          {/* <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item   ">
-                <button
-                  className="btn btn-close-white border text-white"
-                  href="#"
-                >
-                  Logout
-                </button>
-              </li>
-            </ul> */}
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-link  ">
+              <a
+                className="btn btn-primary"
+                href="https://hostel-maintenance.netlify.app/"
+              >
+                Admin Login
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
       <Outlet></Outlet>
