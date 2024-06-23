@@ -4,6 +4,7 @@ import "./Component.css";
 
 function App() {
   const [getData, setGetData] = useState({});
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     const fetchData = () => {
@@ -20,11 +21,34 @@ function App() {
     return () => firebaseDB.child("project").off();
   }, []);
 
+  const handleFilter = (event) => {
+    setSearchQuery(event.target.value);
+  };
+
+  // Filter the data based on the search query
+  const filteredData = Object.keys(getData).filter((key) => {
+    const item = getData[key];
+    return (
+      item.room_number.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.status.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.floor_number.toString().includes(searchQuery) ||
+      item.price.toString().includes(searchQuery)
+    );
+  });
+
   return (
     <div className="container mt-3">
+      <div className="col-6">
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Search"
+          onChange={handleFilter}
+        />
+      </div>
       <div className="row">
-        {getData &&
-          Object.keys(getData).map((key) => {
+        {filteredData &&
+          filteredData.map((key) => {
             const item = getData[key];
             return (
               <div className="col-md-4" key={key}>
