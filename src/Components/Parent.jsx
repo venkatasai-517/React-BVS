@@ -1,23 +1,32 @@
 import About from "./About";
 import Body from "./Body";
-import Ownstatus from "./Ownstatus";
+import Singleshare from "./Singleshare";
 import { Route, Routes } from "react-router-dom";
-import Contact from "./Contact";
-import Createpages from "./Createpage";
-import Upload from "./Uploadads";
-import User from "./Userpage";
+import Room_img from "./Room_img";
+import Doubleshare from "./Doubleshare";
+import Thribleshare from "./Thribleshare";
+import Fourshare from "./Fourshare";
 const Parent = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Body></Body>}></Route>
-        <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/room_img" element={<Room_img></Room_img>}></Route>
 
         <Route path="/about" element={<About></About>}></Route>
-        <Route path="/ownstatus" element={<Ownstatus></Ownstatus>}></Route>
-        <Route path="/createpage" element={<Createpages></Createpages>}></Route>
-        <Route path="/uploadads" element={<Upload></Upload>}></Route>
-        <Route path="/userpage" element={<User></User>}></Route>
+        <Route
+          path="/Singleshare"
+          element={<Singleshare></Singleshare>}
+        ></Route>
+        <Route
+          path="/Doubleshare"
+          element={<Doubleshare></Doubleshare>}
+        ></Route>
+        <Route
+          path="/Thribleshare"
+          element={<Thribleshare></Thribleshare>}
+        ></Route>
+        <Route path="/Fourshare" element={<Fourshare></Fourshare>}></Route>
       </Routes>
     </>
   );
